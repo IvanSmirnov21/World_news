@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <item android:title="Категории новостей">
+        <menu>
+            <item android:title="Новости без категорий" android:id="@+id/itemGeneral"/>
+            <item android:title="Деловые новости" android:id="@+id/itemBusiness"/>
+            <item android:title="Новости развлечений" android:id="@+id/itemEntertainment"/>
+            <item android:title="Здоровье" android:id="@+id/itemHealth"/>
+            <item android:title="Наука" android:id="@+id/itemScience"/>
+            <item android:title="Спорт" android:id="@+id/itemSport"/>
+            <item android:title="Новости технологий" android:id="@+id/itemTechnology"/>
+        </menu>
+
+
+
+    </item>
+
+</menu>
