@@ -23,18 +23,22 @@ class DetailNews : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         //titleText.text = arguments?.getString("Title")
         arguments?.getString("Title")?.let {
-            titleText.text = it }
+            titleText.text = it
+        }
 
         arguments?.getString("Description")?.let {
-            textDescription.text = it}
+            textDescription.text = it
+        }
 
         arguments?.getString("image")?.let {
-            if (it != null){
-            Picasso.get().load(it).into(imageDetail)}
+            if (it != null) {
+                Picasso.get().load(it).into(imageDetail)
             }
+        }
 
         arguments?.getString("url")?.let {
-            urlContent.text = it}
+            urlContent.text = it
+        }
 
     }
 }
